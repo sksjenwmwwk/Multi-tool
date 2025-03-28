@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Online Tools</title>
+
+    <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-XXXXXXXXXXXXXXXX",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .tool-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.2s;
+        }
+        .tool-card:hover {
+            transform: scale(1.05);
+        }
+        .tool-icon {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        .tool-link {
+            margin-top: 5px;
+            font-size: 14px;
+            color: blue;
+            text-decoration: underline;
+        }
+        .toggle-btn {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .dark-mode {
+            background-color: #222;
+            color: white;
+        }
+        .dark-mode .tool-card {
+            background: #333;
+            color: white;
+        }
+        .ad-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Free Online Tools</h1>
+
+        <!-- Dark Mode Toggle -->
+        <button class="toggle-btn" onclick="toggleDarkMode()">Dark/Light Mode</button>
+
+        <!-- Google AdSense Banner -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="YYYYYYYYYY"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <!-- Tools List -->
+        <div class="tools-grid">
+            <div class="tool-card">
+                <div class="tool-icon">🖼️</div>
+                <div>Image Compressor</div>
+                <a href="img-com.html" class="tool-link">Open Tool</a>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🔳</div>
+                <div>QR Code Generator</div>
+                <a href="qr-code-generator.html" class="tool-link">Open Tool</a>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">📄</div>
+                <div>Text to PDF</div>
+                <a href="text-to-pdf.html" class="tool-link">Open Tool</a>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">🔑</div>
+                <div>Password Generator</div>
+                <a href="password-generator.html" class="tool-link">Open Tool</a>
+            </div>
+            <div class="tool-card">
+                <div class="tool-icon">✍️</div>
+                <div>Word Counter</div>
+                <a href="word-counter.html" class="tool-link">Open Tool</a>
+            </div>
+        </div>
+
+        <!-- Google AdSense Banner at Bottom -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="YYYYYYYYYY"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+
+    <script>
+        // Dark Mode Toggle Function
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+              </html>
